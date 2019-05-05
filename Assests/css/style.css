@@ -218,10 +218,12 @@ body {
   
 
   /* Portrait and Landscape */
-  @media screen
-  and (min-width: 980px) 
-  and (max-width: 768px)
-  and (max-width: 640px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-
+  @media (max-width:500px) {
+    body {
+      background-color: red;
+    }
+    .auth-image {
+      width: 100%
+    }
   }
+
